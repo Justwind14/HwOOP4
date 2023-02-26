@@ -133,7 +133,7 @@ public class Calendar1 {
     public void writeCalendar() {
         try {
 
-            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("D:\\GBJava\\HomeWorks_java\\GBjavaHomeWorks\\Home-23.02\\Home-23.02\\src\\cal.md", false));
+            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("cal.txt", false));
 
             for (Task task : taskList
             ) {
